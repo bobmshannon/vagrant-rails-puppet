@@ -43,3 +43,6 @@ bower.json
 
 # Vagrant
 /.vagrant
+
+# DS Store
+.DS_Store
