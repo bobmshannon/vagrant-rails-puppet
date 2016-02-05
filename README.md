@@ -1,5 +1,5 @@
 # vagrant-rails-puppet
-A ready to use [Ruby on Rails](http://guides.rubyonrails.org/getting_started.html) development environment based on [CentOS](https://www.centos.org/) 6.6 using [Vagrant](https://www.vagrantup.com/downloads.html) and [Puppet](https://puppetlabs.com).
+A ready to use [Ruby on Rails](http://guides.rubyonrails.org/getting_started.html) development environment running under [CentOS](https://www.centos.org/) 6.6 using [Vagrant](https://www.vagrantup.com/downloads.html) and [Puppet](https://puppetlabs.com).
 
 Includes the following:
 * Ruby v2.3.0 installed and enabled by default via `rvm`
