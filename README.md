@@ -9,7 +9,7 @@ Includes the following:
 * PostgreSQL
 * SQLite
 
-To get started, first install [Vagrant](https://www.vagrantup.com/downloads.html) and then run the following commands:
+To get started, first install [Vagrant](https://www.vagrantup.com/downloads.html) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Afterward, run the following commands:
 
 ```
 git clone git@github.com:bobmshannon/vagrant-rails-puppet.git
