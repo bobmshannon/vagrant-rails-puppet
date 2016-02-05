@@ -17,4 +17,4 @@ cd vagrant-rails-puppet
 vagrant up
 ```
 
-Once the VM has booted, you can then access the Rails app via [http://localhost:8080/](http://localhost:8080/).
+Once the VM has booted you will be able to access the Rails app via [http://localhost:8080/](http://localhost:8080/).
