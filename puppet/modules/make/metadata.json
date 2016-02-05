@@ -1,0 +1,14 @@
+{
+  "name": "croddy-make",
+  "version": "0.0.5",
+  "author": "Chris Roddy <croddy@puppetlabs.com>",
+  "summary": "Installs the make package",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/cmroddy/puppet-make.git",
+  "project_page": "https://github.com/cmroddy/puppet-make",
+  "issues_url": "https://github.com/cmroddy/puppet-make/issues",
+  "description": "Installs the make package",
+  "dependencies": [
+  
+  ]
+}
