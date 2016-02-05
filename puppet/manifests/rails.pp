@@ -56,6 +56,8 @@ node default {
   class { 'motd':
     content => "Welcome to your Rails development VM. To get started, access http://localhost:8080/ in your web browser.\n"
   } 
+  # Generate Rails App
+  class { 'railsapp': }
 } 
 class passenger {
   # Install Phusion Passenger + Nginx
@@ -78,5 +80,12 @@ class firewall {
   exec { 'firewall::apply_rules':
     command => 'iptables -I INPUT -p tcp --dport 80 -j ACCEPT',
     path    => '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin'
+  }
+}
+class railsapp {
+  # Generate a new rails app.
+  exec { 'railsapp::generate':
+    command => 'cd /vagrant; rails new tmp/; cd tmp/; mv * ../; cd ..; rm -rf tmp/',
+    path    => '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin'    
   }
 }
