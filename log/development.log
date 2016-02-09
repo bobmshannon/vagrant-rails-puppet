@@ -1,14 +1,56 @@
-
-
-Started GET "/" for 10.0.2.2 at 2016-02-05 06:12:04 +0000
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block in tsort_each at /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <top (required)> at /vagrant/app/controllers/application_controller.rb:1)
+DEPRECATION WARNING: after_filter is deprecated and will be removed in Rails 5.1. Use after_action instead. (called from <top (required)> at /vagrant/app/controllers/application_controller.rb:1)
+Started GET "/" for 10.0.2.2 at 2016-02-05 22:23:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 10.0.2.2 at 2016-02-05 22:23:23 +0000
 Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Rails::WelcomeController#index as HTML
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5.1/lib/rails/templates/rails/welcome/index.html.erb (9.6ms)
-Completed 200 OK in 46ms (Views: 25.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/rails/info/properties" for 10.0.2.2 at 2016-02-05 06:12:07 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (12.7ms)
+Completed 200 OK in 70ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (5.6ms)
+Completed 200 OK in 52ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+Started GET "/" for 10.0.2.2 at 2016-02-06 03:20:04 +0000
 Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::InfoController#properties as */*
-  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5.1/lib/rails/templates/rails/info/properties.html.erb (0.1ms)
-Completed 200 OK in 51ms (Views: 10.0ms | ActiveRecord: 3.4ms)
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block in tsort_each at /usr/local/rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <top (required)> at /vagrant/app/controllers/application_controller.rb:1)
+DEPRECATION WARNING: after_filter is deprecated and will be removed in Rails 5.1. Use after_action instead. (called from <top (required)> at /vagrant/app/controllers/application_controller.rb:1)
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (28.9ms)
+Completed 200 OK in 144ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (14.1ms)
+Completed 200 OK in 142ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (57.5ms)
+Completed 200 OK in 252ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (6.4ms)
+Completed 200 OK in 68ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 10.0.2.2 at 2016-02-09 03:57:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-5.0.0.beta2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)

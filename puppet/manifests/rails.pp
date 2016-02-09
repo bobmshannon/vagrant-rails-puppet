@@ -76,7 +76,7 @@ class utils {
 class firewall {
   # Set firewall rules using iptables.
   exec { 'firewall::apply_rules':
-    command => 'iptables -I INPUT -p tcp --dport 80 -j ACCEPT',
+    command => 'iptables -I INPUT -p tcp --dport 80 -j ACCEPT; service iptables save',
     path    => '/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin'
   }
 }
